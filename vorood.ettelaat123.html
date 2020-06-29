@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ورود اطلاعات</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <script src="bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/Font vazir.css">
+    <link rel="stylesheet" href="rtl.css">
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light btn-primary">
+        <a class="navbar-brand" href="#">حسابداری شخصی</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav col-8">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">صفحه اصلی<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">محصولات</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        نمایندگی ها
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">تهران</a>
+                        <a class="dropdown-item" href="#">شهرستان</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">خارج از کشور</a>
+                    </div>
+                </li>
+                <!--/li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li-->
+            </ul>
+            <form class="form-inline col-4">
+                <input class="form-control mr-sm-2" type="search" placeholder="جستجو" aria-label="Search">
+                <button class="btn btn-success my-2 my-sm-0" type="submit">جستجو</button>
+            </form>
+        </div>
+    </nav>
+</div>
+<br>
+<br>
+<form class="offset-3 col-6 offset-3" style="background-color: #007bff">
+    <br>
+    <br>
+    <h2 style="text-align: center">ورود اطلاعات دریافت و پرداخت</h2>
+    <br>
+    <br>
+    <div class="form-group row">
+        <label for="inputEmail3" class="col-sm-2 col-form-label" >عنوان :</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="عنوان فاکتور خود را وارد کنید">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">مبلغ &nbsp;&nbsp;:</label>
+        <div class="col-10">
+            <input type="password" class="form-control" id="inputPassword3" placeholder="مبلغ خود را به ریال وارد کنید">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">تاریخ&nbsp;&nbsp;&nbsp;:</label>
+        <div class="col-10">
+            <input type="password" class="form-control" id="deta" placeholder="تاریخ فاکتور خود را وارد کنید">
+        </div>
+    </div>
+    <br>
+    <br>
+    <div>
+        <label for="inputEmail3" >عنوان :</label>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">دریافت</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">پرداخت</label>
+        </div>
+    </div>
+<br>
+<br>
+<br>
+    <div class="form-group row">
+        <div class="offset-5 col-2 offset-5">
+            <button type="submit" class="btn btn-success">ذخیره</button>
+        </div>
+    </div>
+    <br>
+</form>
+<br>
+</body>
+</html>
