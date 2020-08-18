@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ورود</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/rtl.css">
+    <link rel="stylesheet" href="css/rtl.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <script src="accountant.js"></script>
+
+</head>
+<body>
+
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light btn-primary">
+        <a class="navbar-brand" href="Image/recyclesymbol"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="Image/Untitled.jpg" width="40x">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav col-8">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">صفحه اصلی<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">محصولات</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        نمایندگی ها
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">تهران</a>
+                        <a class="dropdown-item" href="#">شهرستان</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">خارج از کشور</a>
+                    </div>
+                </li>
+                <!--/li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li-->
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div style="margin-top: 65px; background: #007bff" class=" offset-3 col-6 offset-3 rounded justify-content-center">
+    <h3 class="text-center" style="margin-top: 50px">به صفحه حسابداری شخصی خوش آمدید</h3>
+    <form name="myform" method="post" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return validateform()" class="mt100 justify-content-center">
+        <div style="margin-right: 100px">
+            نام کاربری : <input type="text" name="name" placeholder="لطفا نام کاربری خود را وارد کنید" style="margin-right: 30px"; class="mb-4"><br>
+            رمز عبور :     <input type="password" placeholder="لطفا رمز عبور خود را وارد کنید" name="password" style="margin-right: 30px;" class="mb-4">
+        </div>
+
+        <div class="form-group row" >
+            <div class="col-sm-2"></div>
+            <div class="col-sm-10">
+                <div class="form-check row offset-3 col-6 offset-3">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck1">
+                        <b>من ربات نیستم</b>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2"></div>
+            <div class="col-10">
+                <div class="form-check offset-3 col-6 offset-3">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck1">
+                        <b>مرا بخاطر بسپار</b>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+
+        <input type="submit" value="ذخیره" class=" mt80 mb-4" style="margin-right: 250px">
+        <div class="offset-4 col-3 offset-4 justify-content-center">
+            &nbsp;&nbsp; <span>
+            <a href="http://www.google.com" class="text-dark"> فراموشی رمز عبور</a>
+        </span>
+        </div><br>
+    </form>
+    <script>
+
+    </script>
+</div>
+</body>
+</html>
+
+
+
